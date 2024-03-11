@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sistem Informasi Desa</title>
-    <link rel="stylesheet" href="index2.css" />
+    <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="assets/css/bootstrap.css" />
     <link rel="stylesheet" href="assets/fontawesome/css/font-awesome.min.css" />
     <script type="text/javascript" src="assets/js/jquery.js"></script>
@@ -12,39 +12,7 @@
   </head>
 
   <body>
-    <div class="logo-container">
-      <div class="logo">
-        <img src="img/logo.png" alt="" style="width: 300px" />
-      </div>
-      <div class="address">
-        <p>
-          Jl. Raya Siliwangi No.6, RT.001/RW.004, Sepanjang Jaya.
-          Desa/Kelurahan, : KEC. RAWALUMBU.
-        </p>
-      </div>
-    </div>
-
-    <nav class="nav">
-      <div class="menu">
-        <ul>
-          <li class="dropdown">
-            <a href="#">Beranda</a>
-            <i class="dropdown-icon"></i>
-            <ul class="dropdown-content">
-              <li><a href="#">Submenu 1</a></li>
-              <li><a href="#">Submenu 2</a></li>
-              <li><a href="#">Submenu 3</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Profil</a></li>
-          <li><a href="#">Pemerintahan</a></li>
-          <li><a href="#">Data</a></li>
-          <li><a href="#">Informasi</a></li>
-          <li><a href="#">Program</a></li>
-          <li><a href="#">Layanan Mandiri</a></li>
-        </ul>
-      </div>
-    </nav>
+   <?php include 'asset/header.html' ?>
 
     <!-- <nav class="nav">
     <div class="menu">
@@ -71,8 +39,9 @@
 
     <div class="kasus">
       <div class="case case1">
-        <i class="fa fa-file-text" aria-hidden="true"></i>
+       <a href="kependudukan.php"><i class="fa fa-file-text" aria-hidden="true"></i>
         <p>Kasus Satu</p>
+        </a>
       </div>
       <div class="case case2">
         <i class="fa fa-file-text" aria-hidden="true"></i>
